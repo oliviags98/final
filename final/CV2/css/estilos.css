@@ -1,0 +1,159 @@
+html{
+	font-family: 'Manjari', sans-serif;
+	font-size: 16px;
+}
+body { margin: 0; padding: 0; background-color:#293C46; }
+#main{
+	border:solid;
+	border-color: black;
+	width: 70%;
+	margin-left: auto;
+	margin-right:auto;
+	padding: 15px;
+	background-color: #B62424;
+
+}
+@keyframes move1{
+	0%{transform:translateY(-1000px);opacity: 0;}
+	50%{transform: translateY(0px);opacity: 1;}
+	
+	
+}
+
+
+.anchoimg{ width: 100%;
+	animation-name: move1;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+	
+
+}
+
+#footer1{
+	background-image: url("../img/footer2.jpg");
+	height: 250px;
+	background-size: contain;
+}
+.art1{
+	padding: 15px; clear: both;
+}
+
+#header {
+	margin: auto;
+	width: 700px;
+}
+
+ul, ol {
+	list-style: none;
+	justify-content: center;
+}
+.nav li a {
+	background-color: #000;
+	color: #FFF;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+	justify-content: center;
+
+
+}
+.nav li a:hover {
+	color: #374358;
+}
+.nav > li {
+	float: left;
+	justify-content: center;
+	margin-left: 35px;
+	align-content: center;
+}
+
+
+}
+
+body{
+	background-image: url(../img/fondo3.jpg);
+}
+#contenedor{
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.primero{
+	background: #446D8A;
+	width: 80%;
+	padding: 1.5%;
+	height: 600px;
+	box-sizing: border-box;
+	border: solid black;
+	border-color: black;
+}
+.foto1{
+	width: 50%;
+	justify-content: center;
+	margin-left: 155px;
+	border:solid black;
+}
+.segundo{
+	background: #446D8A;
+	width: 80%;
+	padding: 1.5%;
+	height: 600px;
+	box-sizing: border-box;
+	border: solid black;
+	border-color: black;
+}
+.tercero{
+	background: #446D8A;
+	height: 600px;
+	width: 80%;
+	padding: 1.5%;
+	box-sizing: border-box;
+	border: solid black;
+	border-color: black;
+}
+article img{width: 100%}
+
+.h2{
+	color: black;
+	font-family: gothic;
+	font-size: 60;
+	margin-left: 29%;
+	animation-name: move1;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+
+}
+
+@keyframes move1{
+	0%{transform:translateY(-1000px);opacity: 0;}
+	50%{transform: translateY(0px);opacity: 1;}
+	
+	
+}
+@media (min-width: 1201px) {
+	body{background-image: url(../img/fondo3.jpg);}
+}
+
+
+
+@media screen and (min-width: 600px) and (max-width: 959px){
+	body{background-color: #0C3D66;}
+	
+	#contenedor{flex-wrap: wrap;}
+	.primero{width: 100%;}
+	.segundo{width: 100%;}
+	.tercero{width: 100%;}
+	.foto1{width: 50%;flex-direction:column;}
+	.nav {width: 20%; flex-flow:row;}
+
+	}
+	@media screen and (min-width: 0px) and (max-width: 599px){
+	body{background-color: #7F868C;}
+	#contenedor{flex-direction: column; width: 100%}
+	.primero,.segundo,.tercero{width: 100%}
+	.nav {width: 30%; flex-flow: row;}
+
+}
+

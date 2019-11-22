@@ -1,0 +1,244 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+	background-color: #C4C4CF;
+}
+
+.wrapper{
+background-color: #C4C4CF
+
+}
+.primercontenedor {
+	display: flex; 
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	
+	background-color: #C4C4CF;
+
+}
+
+header {
+	background-color: #C4C4CF;
+	
+}
+.fijo {
+	position: relative;
+	top: 0px;
+	width: 100vw;
+	margin-bottom: 100px;
+	z-index: 2;
+	background-attachment: fixed;
+	background-color: #C4C4CF;
+	height: 40px;
+}
+.logo { text-align: center;
+	margin-right: 170px;
+	background-color: #C4C4CF;
+
+ }
+.menu {
+	display: flex; 
+	
+}
+.nav {
+	margin-top: 15px;
+	background-color: #D81818;
+	width: 100%;
+	justify-content: center;
+	font-family: tahoma;
+	position: sticky;
+	top: 0px;
+}
+.nav li {
+
+	padding: 15px 50px;
+	list-style: none;
+
+}
+.nav li a {
+	color: black;
+	text-decoration: none;
+	padding: 15px 30px;
+	transition-duration:1s;
+	transition-property: background-color;
+	transition-delay: 0s;
+}
+.nav li a:hover{
+	background-color: #494885;
+	color: black;
+	font-weight: bold;	
+}
+.container {
+	margin-top: 400px;
+	background-color: #C4C4CF;
+		}
+
+		.perfil{
+			
+		margin-left: 10px;
+		flex-direction: column;
+		width: 50%;
+		background-color: #DEDEF7;
+		border: solid black 15px;
+		}
+.perfil h2{
+	font-size: 20px;
+	margin-top: 30px;
+	text-orientation: justify;
+}
+.perfil button{
+	background-color: #494885;
+	justify-content: center;
+	width: 10%;
+	height: 10%;
+	margin-left: 290px;
+	border-radius: 20%;
+
+}
+.titulobio{
+	color: black;
+	font-size: 40px;
+	text-decoration: none;
+	margin-top: 200px;
+	margin-left: 0px;
+	background-color: #494885;
+	font-family: tahoma;
+	text-align: center;
+
+}
+	
+.bio {
+	display: flex; 
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.cuadrosself {
+	align-content: space-around;
+	/*background-color: #edeeee;*/
+	width: 350px;
+	height: 600px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 20px;
+   	display: flex;
+  	justify-content: center;
+  	align-items: center;
+   	position: relative;
+
+
+}
+.cuadrosself img {
+	transition-duration:1s;
+	transition-property: opacity ;
+	transition-delay: 0s;
+}
+.cuadrosself a {
+	padding-right: 1px;
+	padding-left: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	
+}
+.cuadrosself a h2 {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+
+}
+.cuadrosself h2 {
+	display: none;
+	position: absolute;
+	text-align: center;
+	font-size: 20px;
+	opacity: 0;
+	transition-duration:2s;
+	transition-property: opacity;
+	transition-delay: 2s;
+	color: black;
+
+}
+
+.cuadrosself:hover h2, .cuadrosself:hover a { display:block; }
+.cuadrosself:hover img {opacity: 0.1;}
+.cuadrosself:hover h2 {opacity: 0.8;}
+
+.titulojaws{
+	color: black;
+	font-size: 40px;
+	text-decoration: none;
+	margin-top: 200px;
+	margin-left: 0px;
+	background-color: #494885;
+	font-family: tahoma;
+	text-align: center;
+
+}
+.cuadros1 {
+	display: flex; 
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 65px;
+	margin-bottom: 50px;
+}
+.cuadros2 {
+	display: flex; 
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 65px;
+	margin-bottom: 50px;
+}
+.tituloet{
+	color: black;
+	font-size: 40px;
+	text-decoration: none;
+	margin-top: 200px;
+	margin-left: 0px;
+	background-color: #494885;
+	font-family: tahoma;
+	text-align: center;
+
+}
+.titulolista{
+	color: black;
+	font-size: 40px;
+	text-decoration: none;
+	margin-top: 200px;
+	margin-left: 0px;
+	background-color: #494885;
+	font-family: tahoma;
+	text-align: center;
+
+}
+.cuadros3 {
+	display: flex; 
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 65px;
+	margin-bottom: 50px;
+}
+.titulocontacto{
+	color: black;
+	font-size: 40px;
+	text-decoration: none;
+	margin-top: 200px;
+	margin-left: 0px;
+	background-color: #494885;
+	font-family: tahoma;
+	text-align: center;
+	
+
+
+}
+.formulario{
+text-align: center;
+margin-top: 40px;
+margin-bottom: 40px;
+flex-direction: column;
+}
+
+.imgfooter{
+	height: 10%;
+}
